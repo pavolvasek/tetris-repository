@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="401.0" layoutY="204.0" prefHeight="23.0" prefWidth="62.0" text="SCORE">
+         <font>
+            <Font name="Futura Medium" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="125.0" prefHeight="23.0" prefWidth="62.0" text="Level">
+         <font>
+            <Font name="Futura Medium" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="84.5" layoutX="383.0" layoutY="157.0" startX="14.5" strokeWidth="3.0" />
+      <Line endX="100.0" endY="9.5" layoutX="297.0" layoutY="147.0" startX="100.0" startY="-20.0" strokeWidth="3.0" />
+      <Line endX="84.5" layoutX="381.0" layoutY="235.0" startX="14.5" strokeWidth="3.0" />
+      <Line endX="100.0" endY="9.5" layoutX="295.0" layoutY="225.0" startX="100.0" startY="-20.0" strokeWidth="3.0" />
+      <Line endX="196.5" endY="343.0" layoutX="167.0" layoutY="157.0" startX="196.5" startY="-157.0" strokeWidth="2.0" />
+      <Line endX="392.0" layoutX="108.0" layoutY="476.0" startX="-108.0" strokeWidth="2.0" />
+      <Button fx:id="leftButton" layoutX="382.0" layoutY="423.0" mnemonicParsing="false" onAction="#moveLeft" text="←" />
+      <Button fx:id="rightButton" layoutX="453.0" layoutY="423.0" mnemonicParsing="false" onAction="#moveRight" text="→" />
+      <Rectangle fx:id="myRectangle" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="33.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Button fx:id="downButton" layoutX="418.0" layoutY="423.0" mnemonicParsing="false" onMousePressed="#moveDown" text="↓" />
+      <Rectangle fx:id="myRectangle1" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Label fx:id="levelText" layoutX="426.0" layoutY="168.0" prefHeight="17.0" prefWidth="27.0" text="1">
+         <font>
+            <Font name="Futura Medium" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreText" layoutX="403.0" layoutY="247.0" prefHeight="24.0" prefWidth="73.0" text="00000">
+         <font>
+            <Font name="Futura Medium" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="myRectangle2" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle3" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle4" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle5" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle6" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle7" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle8" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle9" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle10" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle11" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle12" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle13" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle14" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle15" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle16" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle17" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle18" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle19" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle20" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle21" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle22" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle23" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle fx:id="myRectangle24" arcHeight="5.0" arcWidth="5.0" fill="#2dff8b" height="33.0" layoutX="414.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+   </children>
+</Pane>
